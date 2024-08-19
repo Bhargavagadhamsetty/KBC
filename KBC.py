@@ -66,10 +66,10 @@ for i in range(0, len(questions)):
   
   question = questions[i]
   print(f"\n\nQuestion for Rs. {levels[i]}")
-  print(f"Q){question[0]}")
-  print(f"a. {question[1]}          b. {question[2]} ")
-  print(f"c. {question[3]}          d. {question[4]} ")
-  reply = int(input("Enter your answer (1-4) or  0 to quit:\n" ))
+  print(f"Q) {question[0]}")
+  print(f"1. {question[1]}          2. {question[2]}")
+  print(f"3. {question[3]}          4. {question[4]}")
+  reply = int(input("Enter your answer (1-4) or 0 to quit:\n"))
   if (reply == 0):
     money = levels[i-1]
     break
